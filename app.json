@@ -22,6 +22,12 @@
       },
       "edgeToEdgeEnabled": true
     },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "tsconfigPaths": true
+    },
     "web": {
       "favicon": "./assets/favicon.png"
     }

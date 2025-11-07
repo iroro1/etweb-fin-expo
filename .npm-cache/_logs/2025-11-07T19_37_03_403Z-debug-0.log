@@ -1,0 +1,19 @@
+0 verbose cli /Users/leoojigbo/.nvm/versions/node/v20.19.4/bin/node /Users/leoojigbo/.nvm/versions/node/v20.19.4/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.19.4
+3 silly config load:file:/Users/leoojigbo/.nvm/versions/node/v20.19.4/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/leoojigbo/Documents/2025/Q4/etweb-fin-expo/.npmrc
+5 silly config load:file:/Users/leoojigbo/.npmrc
+6 silly config load:file:/Users/leoojigbo/.nvm/versions/node/v20.19.4/etc/npmrc
+7 verbose title npm view lucide-react-native version
+8 verbose argv "view" "lucide-react-native" "version"
+9 verbose logfile logs-max:10 dir:/Users/leoojigbo/Documents/2025/Q4/etweb-fin-expo/.npm-cache/_logs/2025-11-07T19_37_03_403Z-
+10 verbose logfile /Users/leoojigbo/Documents/2025/Q4/etweb-fin-expo/.npm-cache/_logs/2025-11-07T19_37_03_403Z-debug-0.log
+11 silly logfile done cleaning log files
+12 http fetch GET 200 https://registry.npmjs.org/lucide-react-native 331ms (cache revalidated)
+13 verbose cwd /Users/leoojigbo/Documents/2025/Q4/etweb-fin-expo
+14 verbose os Darwin 24.6.0
+15 verbose node v20.19.4
+16 verbose npm  v10.8.2
+17 verbose exit 0
+18 info ok

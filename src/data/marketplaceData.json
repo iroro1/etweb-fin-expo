@@ -1,0 +1,926 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "john.doe@example.com",
+      "password": "hashed_password_123",
+      "firstName": "John",
+      "lastName": "Doe",
+      "phone": "+2349012345678",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+      "userType": "customer",
+      "location": {
+        "address": "123 Victoria Island",
+        "city": "Lagos",
+        "state": "Lagos",
+        "country": "Nigeria",
+        "coordinates": {
+          "latitude": 6.5244,
+          "longitude": 3.3792
+        }
+      },
+      "createdAt": "2024-01-15T10:30:00Z",
+      "isVerified": true,
+      "preferences": {
+        "notifications": true,
+        "marketing": false,
+        "theme": "light"
+      }
+    },
+    {
+      "id": "2",
+      "email": "sarah.smith@example.com",
+      "password": "hashed_password_456",
+      "firstName": "Sarah",
+      "lastName": "Smith",
+      "phone": "+2349023456789",
+      "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
+      "userType": "seller",
+      "businessName": "Sarah's Fashion Boutique",
+      "businessDescription": "Premium fashion items for the modern woman",
+      "location": {
+        "address": "456 Ikeja",
+        "city": "Lagos",
+        "state": "Lagos",
+        "country": "Nigeria",
+        "coordinates": {
+          "latitude": 6.6018,
+          "longitude": 3.3515
+        }
+      },
+      "createdAt": "2024-01-10T14:20:00Z",
+      "isVerified": true,
+      "rating": 4.8,
+      "totalSales": 1250,
+      "preferences": {
+        "notifications": true,
+        "marketing": true,
+        "theme": "dark"
+      }
+    },
+    {
+      "id": "3",
+      "email": "mike.johnson@example.com",
+      "password": "hashed_password_789",
+      "firstName": "Mike",
+      "lastName": "Johnson",
+      "phone": "+2349034567890",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+      "userType": "service_provider",
+      "businessName": "Mike's Tech Solutions",
+      "businessDescription": "Professional IT services and consulting",
+      "services": [
+        "Web Development",
+        "Mobile App Development",
+        "IT Consulting"
+      ],
+      "location": {
+        "address": "789 Lekki",
+        "city": "Lagos",
+        "state": "Lagos",
+        "country": "Nigeria",
+        "coordinates": {
+          "latitude": 6.455,
+          "longitude": 3.456
+        }
+      },
+      "createdAt": "2024-01-05T09:15:00Z",
+      "isVerified": true,
+      "rating": 4.9,
+      "totalServices": 89,
+      "preferences": {
+        "notifications": true,
+        "marketing": false,
+        "theme": "system"
+      }
+    },
+    {
+      "id": "4",
+      "email": "adebayo.adeyemi@example.com",
+      "password": "hashed_password_101",
+      "firstName": "Adebayo",
+      "lastName": "Adeyemi",
+      "phone": "+2349045678901",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
+      "userType": "seller",
+      "businessName": "Adebayo's Electronics Store",
+      "businessDescription": "Quality electronics and gadgets at affordable prices",
+      "location": {
+        "address": "123 Victoria Island",
+        "city": "Lagos",
+        "state": "Lagos",
+        "country": "Nigeria",
+        "coordinates": {
+          "latitude": 6.4281,
+          "longitude": 3.4219
+        }
+      },
+      "createdAt": "2024-01-12T11:30:00Z",
+      "isVerified": true,
+      "rating": 4.7,
+      "totalSales": 890,
+      "preferences": {
+        "notifications": true,
+        "marketing": true,
+        "theme": "light"
+      }
+    },
+    {
+      "id": "5",
+      "email": "chioma.okonkwo@example.com",
+      "password": "hashed_password_102",
+      "firstName": "Chioma",
+      "lastName": "Okonkwo",
+      "phone": "+2349056789012",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+      "userType": "service_provider",
+      "businessName": "Chioma's Beauty Salon",
+      "businessDescription": "Professional beauty services and treatments",
+      "services": ["Hair Styling", "Makeup", "Nail Art", "Facial Treatments"],
+      "location": {
+        "address": "456 Ikeja",
+        "city": "Lagos",
+        "state": "Lagos",
+        "country": "Nigeria",
+        "coordinates": {
+          "latitude": 6.6018,
+          "longitude": 3.3515
+        }
+      },
+      "createdAt": "2024-01-08T16:45:00Z",
+      "isVerified": true,
+      "rating": 4.6,
+      "totalServices": 156,
+      "preferences": {
+        "notifications": true,
+        "marketing": false,
+        "theme": "dark"
+      }
+    },
+    {
+      "id": "6",
+      "email": "ahmed.yusuf@example.com",
+      "password": "hashed_password_103",
+      "firstName": "Ahmed",
+      "lastName": "Yusuf",
+      "phone": "+2349067890123",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+      "userType": "seller",
+      "businessName": "Ahmed's Fashion House",
+      "businessDescription": "Traditional and modern fashion for all occasions",
+      "location": {
+        "address": "789 Kano",
+        "city": "Kano",
+        "state": "Kano",
+        "country": "Nigeria",
+        "coordinates": {
+          "latitude": 11.9914,
+          "longitude": 8.5313
+        }
+      },
+      "createdAt": "2024-01-15T13:20:00Z",
+      "isVerified": true,
+      "rating": 4.5,
+      "totalSales": 567,
+      "preferences": {
+        "notifications": true,
+        "marketing": true,
+        "theme": "light"
+      }
+    },
+    {
+      "id": "7",
+      "email": "blessing.ogunleye@example.com",
+      "password": "hashed_password_104",
+      "firstName": "Blessing",
+      "lastName": "Ogunleye",
+      "phone": "+2349078901234",
+      "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
+      "userType": "service_provider",
+      "businessName": "Blessing's Catering Services",
+      "businessDescription": "Delicious catering for events and celebrations",
+      "services": [
+        "Event Catering",
+        "Wedding Catering",
+        "Corporate Catering",
+        "Home Delivery"
+      ],
+      "location": {
+        "address": "321 Ibadan",
+        "city": "Ibadan",
+        "state": "Oyo",
+        "country": "Nigeria",
+        "coordinates": {
+          "latitude": 7.3961,
+          "longitude": 3.8969
+        }
+      },
+      "createdAt": "2024-01-10T10:15:00Z",
+      "isVerified": true,
+      "rating": 4.8,
+      "totalServices": 234,
+      "preferences": {
+        "notifications": true,
+        "marketing": true,
+        "theme": "system"
+      }
+    },
+    {
+      "id": "8",
+      "email": "emeka.uzo@example.com",
+      "password": "hashed_password_105",
+      "firstName": "Emeka",
+      "lastName": "Uzo",
+      "phone": "+2349089012345",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+      "userType": "seller",
+      "businessName": "Emeka's Home Decor",
+      "businessDescription": "Beautiful home decoration and furniture",
+      "location": {
+        "address": "654 Enugu",
+        "city": "Enugu",
+        "state": "Enugu",
+        "country": "Nigeria",
+        "coordinates": {
+          "latitude": 6.4584,
+          "longitude": 7.5464
+        }
+      },
+      "createdAt": "2024-01-14T09:30:00Z",
+      "isVerified": true,
+      "rating": 4.4,
+      "totalSales": 345,
+      "preferences": {
+        "notifications": true,
+        "marketing": false,
+        "theme": "light"
+      }
+    },
+    {
+      "id": "9",
+      "email": "fatima.hassan@example.com",
+      "password": "hashed_password_106",
+      "firstName": "Fatima",
+      "lastName": "Hassan",
+      "phone": "+2349090123456",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+      "userType": "service_provider",
+      "businessName": "Fatima's Cleaning Services",
+      "businessDescription": "Professional cleaning and maintenance services",
+      "services": [
+        "House Cleaning",
+        "Office Cleaning",
+        "Deep Cleaning",
+        "Carpet Cleaning"
+      ],
+      "location": {
+        "address": "987 Kaduna",
+        "city": "Kaduna",
+        "state": "Kaduna",
+        "country": "Nigeria",
+        "coordinates": {
+          "latitude": 10.5222,
+          "longitude": 7.4384
+        }
+      },
+      "createdAt": "2024-01-11T14:45:00Z",
+      "isVerified": true,
+      "rating": 4.7,
+      "totalServices": 189,
+      "preferences": {
+        "notifications": true,
+        "marketing": true,
+        "theme": "dark"
+      }
+    },
+    {
+      "id": "10",
+      "email": "gabriel.adebayo@example.com",
+      "password": "hashed_password_107",
+      "firstName": "Gabriel",
+      "lastName": "Adebayo",
+      "phone": "+2349101234567",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
+      "userType": "seller",
+      "businessName": "Gabriel's Sports Equipment",
+      "businessDescription": "Quality sports equipment and accessories",
+      "location": {
+        "address": "147 Port Harcourt",
+        "city": "Port Harcourt",
+        "state": "Rivers",
+        "country": "Nigeria",
+        "coordinates": {
+          "latitude": 4.8156,
+          "longitude": 7.0498
+        }
+      },
+      "createdAt": "2024-01-13T12:00:00Z",
+      "isVerified": true,
+      "rating": 4.6,
+      "totalSales": 678,
+      "preferences": {
+        "notifications": true,
+        "marketing": false,
+        "theme": "light"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Electronics",
+      "icon": "laptop",
+      "description": "Latest gadgets and electronic devices",
+      "image": "https://images.unsplash.com/photo-1498049794561-7780e7231661?w=300&h=200&fit=crop",
+      "subcategories": ["Smartphones", "Laptops", "Tablets", "Accessories"]
+    },
+    {
+      "id": "2",
+      "name": "Fashion",
+      "icon": "shirt",
+      "description": "Trendy clothing and accessories",
+      "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=300&h=200&fit=crop",
+      "subcategories": ["Men's Clothing", "Women's Clothing", "Shoes", "Bags"]
+    },
+    {
+      "id": "3",
+      "name": "Home & Garden",
+      "icon": "home",
+      "description": "Everything for your home and garden",
+      "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=300&h=200&fit=crop",
+      "subcategories": ["Furniture", "Decor", "Kitchen", "Garden"]
+    },
+    {
+      "id": "4",
+      "name": "Services",
+      "icon": "settings",
+      "description": "Professional services and expertise",
+      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=300&h=200&fit=crop",
+      "subcategories": ["IT Services", "Cleaning", "Plumbing", "Electrical"]
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "iPhone 15 Pro Max",
+      "description": "Latest iPhone with advanced camera system and A17 Pro chip",
+      "price": 1250000,
+      "originalPrice": 1350000,
+      "currency": "NGN",
+      "categoryId": "1",
+      "subcategory": "Smartphones",
+      "sellerId": "2",
+      "images": [
+        "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=400&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=400&h=400&fit=crop&crop=left"
+      ],
+      "stock": 15,
+      "rating": 4.9,
+      "reviewCount": 127,
+      "specifications": {
+        "color": "Titanium",
+        "storage": "256GB",
+        "screen": "6.7 inch",
+        "battery": "4441mAh"
+      },
+      "tags": ["Apple", "Smartphone", "5G", "Premium"],
+      "isFeatured": true,
+      "isOnSale": true,
+      "salePercentage": 7,
+      "createdAt": "2024-01-20T08:00:00Z",
+      "updatedAt": "2024-01-25T10:30:00Z"
+    },
+    {
+      "id": "2",
+      "name": "MacBook Air M2",
+      "description": "Powerful laptop with M2 chip, perfect for work and creativity",
+      "price": 850000,
+      "originalPrice": 950000,
+      "currency": "NGN",
+      "categoryId": "1",
+      "subcategory": "Laptops",
+      "sellerId": "2",
+      "images": [
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400&h=400&fit=crop&crop=top"
+      ],
+      "stock": 8,
+      "rating": 4.8,
+      "reviewCount": 89,
+      "specifications": {
+        "color": "Space Gray",
+        "storage": "512GB",
+        "screen": "13.6 inch",
+        "processor": "M2"
+      },
+      "tags": ["Apple", "Laptop", "M2", "Work"],
+      "isFeatured": true,
+      "isOnSale": true,
+      "salePercentage": 11,
+      "createdAt": "2024-01-18T12:00:00Z",
+      "updatedAt": "2024-01-24T15:45:00Z"
+    },
+    {
+      "id": "3",
+      "name": "Designer Handbag",
+      "description": "Elegant leather handbag perfect for any occasion",
+      "price": 45000,
+      "originalPrice": 55000,
+      "currency": "NGN",
+      "categoryId": "2",
+      "subcategory": "Bags",
+      "sellerId": "2",
+      "images": [
+        "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=400&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=400&h=400&fit=crop&crop=right"
+      ],
+      "stock": 25,
+      "rating": 4.6,
+      "reviewCount": 45,
+      "specifications": {
+        "material": "Genuine Leather",
+        "color": "Brown",
+        "size": "Medium",
+        "closure": "Zipper"
+      },
+      "tags": ["Fashion", "Leather", "Handbag", "Designer"],
+      "isFeatured": false,
+      "isOnSale": true,
+      "salePercentage": 18,
+      "createdAt": "2024-01-22T14:30:00Z",
+      "updatedAt": "2024-01-26T09:15:00Z"
+    },
+    {
+      "id": "4",
+      "name": "Samsung Galaxy S24",
+      "description": "Premium Android smartphone with AI features",
+      "price": 980000,
+      "originalPrice": 1100000,
+      "currency": "NGN",
+      "categoryId": "1",
+      "subcategory": "Smartphones",
+      "sellerId": "4",
+      "images": [
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=400&fit=crop&crop=left"
+      ],
+      "stock": 12,
+      "rating": 4.7,
+      "reviewCount": 78,
+      "specifications": {
+        "color": "Phantom Black",
+        "storage": "256GB",
+        "screen": "6.2 inch",
+        "battery": "4000mAh"
+      },
+      "tags": ["Samsung", "Android", "5G", "AI"],
+      "isFeatured": true,
+      "isOnSale": true,
+      "salePercentage": 11,
+      "createdAt": "2024-01-19T10:00:00Z",
+      "updatedAt": "2024-01-25T16:20:00Z"
+    },
+    {
+      "id": "5",
+      "name": "Traditional Ankara Dress",
+      "description": "Beautiful handcrafted Ankara dress for special occasions",
+      "price": 35000,
+      "originalPrice": 42000,
+      "currency": "NGN",
+      "categoryId": "2",
+      "subcategory": "Women's Clothing",
+      "sellerId": "6",
+      "images": [
+        "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&h=400&fit=crop&crop=top"
+      ],
+      "stock": 8,
+      "rating": 4.5,
+      "reviewCount": 23,
+      "specifications": {
+        "material": "Ankara Fabric",
+        "color": "Multi-color",
+        "size": "Available in S, M, L, XL",
+        "style": "Traditional"
+      },
+      "tags": ["Ankara", "Traditional", "African", "Dress"],
+      "isFeatured": false,
+      "isOnSale": true,
+      "salePercentage": 17,
+      "createdAt": "2024-01-21T11:45:00Z",
+      "updatedAt": "2024-01-27T13:30:00Z"
+    },
+    {
+      "id": "6",
+      "name": "Modern Coffee Table",
+      "description": "Elegant wooden coffee table for your living room",
+      "price": 85000,
+      "originalPrice": 95000,
+      "currency": "NGN",
+      "categoryId": "3",
+      "subcategory": "Furniture",
+      "sellerId": "8",
+      "images": [
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=400&fit=crop&crop=bottom"
+      ],
+      "stock": 5,
+      "rating": 4.4,
+      "reviewCount": 12,
+      "specifications": {
+        "material": "Solid Wood",
+        "color": "Natural Brown",
+        "dimensions": "120cm x 60cm x 45cm",
+        "weight": "25kg"
+      },
+      "tags": ["Furniture", "Wood", "Modern", "Living Room"],
+      "isFeatured": false,
+      "isOnSale": true,
+      "salePercentage": 11,
+      "createdAt": "2024-01-23T09:20:00Z",
+      "updatedAt": "2024-01-28T14:45:00Z"
+    },
+    {
+      "id": "7",
+      "name": "Professional Football Jersey",
+      "description": "High-quality football jersey for professional players",
+      "price": 28000,
+      "originalPrice": 35000,
+      "currency": "NGN",
+      "categoryId": "2",
+      "subcategory": "Men's Clothing",
+      "sellerId": "10",
+      "images": [
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=left"
+      ],
+      "stock": 20,
+      "rating": 4.6,
+      "reviewCount": 34,
+      "specifications": {
+        "material": "Moisture-wicking Fabric",
+        "color": "Green/White",
+        "size": "Available in S, M, L, XL, XXL",
+        "brand": "SportsPro"
+      },
+      "tags": ["Football", "Sports", "Jersey", "Professional"],
+      "isFeatured": false,
+      "isOnSale": true,
+      "salePercentage": 20,
+      "createdAt": "2024-01-24T15:10:00Z",
+      "updatedAt": "2024-01-29T11:30:00Z"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "name": "Web Development",
+      "description": "Professional web development services for businesses and individuals",
+      "price": 250000,
+      "currency": "NGN",
+      "categoryId": "4",
+      "subcategory": "IT Services",
+      "providerId": "3",
+      "images": [
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=400&fit=crop&crop=top"
+      ],
+      "duration": "2-4 weeks",
+      "rating": 4.9,
+      "reviewCount": 45,
+      "features": [
+        "Responsive Design",
+        "SEO Optimization",
+        "Content Management System",
+        "24/7 Support"
+      ],
+      "portfolio": [
+        {
+          "title": "E-commerce Website",
+          "description": "Modern e-commerce platform with payment integration",
+          "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=300&h=200&fit=crop"
+        }
+      ],
+      "isAvailable": true,
+      "createdAt": "2024-01-15T09:00:00Z",
+      "updatedAt": "2024-01-25T14:30:00Z"
+    },
+    {
+      "id": "2",
+      "name": "Mobile App Development",
+      "description": "Custom mobile applications for iOS and Android platforms",
+      "price": 350000,
+      "currency": "NGN",
+      "categoryId": "4",
+      "subcategory": "IT Services",
+      "providerId": "3",
+      "images": [
+        "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=400&fit=crop&crop=left"
+      ],
+      "duration": "4-8 weeks",
+      "rating": 4.8,
+      "reviewCount": 32,
+      "features": [
+        "Cross-platform Development",
+        "Native Performance",
+        "App Store Publishing",
+        "Maintenance & Updates"
+      ],
+      "portfolio": [
+        {
+          "title": "Food Delivery App",
+          "description": "Complete food delivery solution with real-time tracking",
+          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=300&h=200&fit=crop"
+        }
+      ],
+      "isAvailable": true,
+      "createdAt": "2024-01-12T11:30:00Z",
+      "updatedAt": "2024-01-24T16:45:00Z"
+    },
+    {
+      "id": "3",
+      "name": "Hair Styling & Makeup",
+      "description": "Professional hair styling and makeup services for special occasions",
+      "price": 25000,
+      "currency": "NGN",
+      "categoryId": "4",
+      "subcategory": "Beauty Services",
+      "providerId": "5",
+      "images": [
+        "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=400&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=400&h=400&fit=crop&crop=right"
+      ],
+      "duration": "2-3 hours",
+      "rating": 4.6,
+      "reviewCount": 67,
+      "features": [
+        "Professional Styling",
+        "Premium Products",
+        "Home Service Available",
+        "Wedding Specialists"
+      ],
+      "portfolio": [
+        {
+          "title": "Wedding Makeup",
+          "description": "Bridal makeup and hair styling for wedding ceremonies",
+          "image": "https://images.unsplash.com/photo-1519741497674-611481863552?w=300&h=200&fit=crop"
+        }
+      ],
+      "isAvailable": true,
+      "createdAt": "2024-01-18T13:15:00Z",
+      "updatedAt": "2024-01-26T10:20:00Z"
+    },
+    {
+      "id": "4",
+      "name": "Event Catering",
+      "description": "Delicious catering services for events and celebrations",
+      "price": 15000,
+      "currency": "NGN",
+      "categoryId": "4",
+      "subcategory": "Catering",
+      "providerId": "7",
+      "images": [
+        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop&crop=top"
+      ],
+      "duration": "Full day",
+      "rating": 4.8,
+      "reviewCount": 89,
+      "features": [
+        "Custom Menu Planning",
+        "Professional Staff",
+        "Equipment Provided",
+        "Clean-up Service"
+      ],
+      "portfolio": [
+        {
+          "title": "Corporate Event",
+          "description": "Catering for 200+ guests at corporate conference",
+          "image": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=300&h=200&fit=crop"
+        }
+      ],
+      "isAvailable": true,
+      "createdAt": "2024-01-20T08:45:00Z",
+      "updatedAt": "2024-01-27T15:30:00Z"
+    },
+    {
+      "id": "5",
+      "name": "House Cleaning",
+      "description": "Professional house cleaning and maintenance services",
+      "price": 8000,
+      "currency": "NGN",
+      "categoryId": "4",
+      "subcategory": "Cleaning",
+      "providerId": "9",
+      "images": [
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop&crop=left"
+      ],
+      "duration": "3-4 hours",
+      "rating": 4.7,
+      "reviewCount": 156,
+      "features": [
+        "Deep Cleaning",
+        "Eco-friendly Products",
+        "Trained Staff",
+        "Satisfaction Guarantee"
+      ],
+      "portfolio": [
+        {
+          "title": "Apartment Cleaning",
+          "description": "Complete apartment cleaning and sanitization",
+          "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=300&h=200&fit=crop"
+        }
+      ],
+      "isAvailable": true,
+      "createdAt": "2024-01-22T10:30:00Z",
+      "updatedAt": "2024-01-28T12:15:00Z"
+    },
+    {
+      "id": "6",
+      "name": "IT Consulting",
+      "description": "Expert IT consulting and digital transformation services",
+      "price": 50000,
+      "currency": "NGN",
+      "categoryId": "4",
+      "subcategory": "IT Services",
+      "providerId": "3",
+      "images": [
+        "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=400&fit=crop&crop=right"
+      ],
+      "duration": "1-2 days",
+      "rating": 4.9,
+      "reviewCount": 23,
+      "features": [
+        "Technology Assessment",
+        "Digital Strategy",
+        "Implementation Planning",
+        "Ongoing Support"
+      ],
+      "portfolio": [
+        {
+          "title": "Digital Transformation",
+          "description": "Complete digital transformation for manufacturing company",
+          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=300&h=200&fit=crop"
+        }
+      ],
+      "isAvailable": true,
+      "createdAt": "2024-01-25T14:20:00Z",
+      "updatedAt": "2024-01-29T09:45:00Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "userId": "1",
+      "items": [
+        {
+          "productId": "1",
+          "quantity": 1,
+          "price": 1250000,
+          "name": "iPhone 15 Pro Max"
+        }
+      ],
+      "total": 1250000,
+      "currency": "NGN",
+      "status": "delivered",
+      "paymentMethod": "card",
+      "paymentStatus": "paid",
+      "shippingAddress": {
+        "name": "John Doe",
+        "address": "123 Victoria Island",
+        "city": "Lagos",
+        "state": "Lagos",
+        "country": "Nigeria",
+        "phone": "+2349012345678"
+      },
+      "trackingNumber": "TRK123456789",
+      "createdAt": "2024-01-20T14:30:00Z",
+      "updatedAt": "2024-01-25T10:00:00Z",
+      "deliveredAt": "2024-01-25T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "items": [
+        {
+          "productId": "3",
+          "quantity": 2,
+          "price": 45000,
+          "name": "Designer Handbag"
+        },
+        {
+          "productId": "4",
+          "quantity": 1,
+          "price": 75000,
+          "name": "Wireless Headphones"
+        }
+      ],
+      "total": 165000,
+      "currency": "NGN",
+      "status": "processing",
+      "paymentMethod": "card",
+      "paymentStatus": "paid",
+      "shippingAddress": {
+        "name": "John Doe",
+        "address": "123 Victoria Island",
+        "city": "Lagos",
+        "state": "Lagos",
+        "country": "Nigeria",
+        "phone": "+2349012345678"
+      },
+      "trackingNumber": "TRK987654321",
+      "createdAt": "2024-01-26T16:45:00Z",
+      "updatedAt": "2024-01-27T09:30:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "userId": "1",
+      "productId": "1",
+      "rating": 5,
+      "title": "Excellent phone!",
+      "comment": "The iPhone 15 Pro Max is absolutely amazing. The camera quality is outstanding and the performance is incredible.",
+      "images": [],
+      "createdAt": "2024-01-26T12:00:00Z"
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "productId": "3",
+      "rating": 4,
+      "title": "Great quality handbag",
+      "comment": "The leather quality is excellent and the design is very elegant. Highly recommended!",
+      "images": [],
+      "createdAt": "2024-01-28T15:30:00Z"
+    }
+  ],
+  "wishlists": [
+    {
+      "userId": "1",
+      "items": [
+        {
+          "productId": "2",
+          "addedAt": "2024-01-22T10:15:00Z"
+        },
+        {
+          "productId": "5",
+          "addedAt": "2024-01-24T14:20:00Z"
+        }
+      ]
+    }
+  ],
+  "carts": [
+    {
+      "userId": "1",
+      "items": [
+        {
+          "productId": "2",
+          "quantity": 1,
+          "addedAt": "2024-01-25T11:30:00Z"
+        }
+      ]
+    }
+  ],
+  "notifications": [
+    {
+      "id": "1",
+      "userId": "1",
+      "type": "order_status",
+      "title": "Order Delivered",
+      "message": "Your order #1 has been delivered successfully!",
+      "isRead": false,
+      "createdAt": "2024-01-25T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "type": "price_drop",
+      "title": "Price Drop Alert",
+      "message": "iPhone 15 Pro Max price has dropped by 7%!",
+      "isRead": true,
+      "createdAt": "2024-01-23T09:15:00Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "1",
+      "senderId": "1",
+      "receiverId": "2",
+      "message": "Hi, I'm interested in the iPhone 15 Pro Max. Do you have it in stock?",
+      "isRead": true,
+      "createdAt": "2024-01-24T14:30:00Z"
+    },
+    {
+      "id": "2",
+      "senderId": "2",
+      "receiverId": "1",
+      "message": "Yes, we have 15 units in stock. Would you like to place an order?",
+      "isRead": false,
+      "createdAt": "2024-01-24T15:00:00Z"
+    }
+  ]
+}
