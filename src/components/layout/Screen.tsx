@@ -8,6 +8,8 @@ interface ScreenProps {
   contentContainerStyle?: object;
 }
 
+const BASE_TOP_PADDING = 16;
+
 export function Screen({
   children,
   scrollable = true,
@@ -15,6 +17,8 @@ export function Screen({
 }: PropsWithChildren<ScreenProps>) {
   const insets = useSafeAreaInsets();
   const { colors } = useTheme();
+  const paddingTop = insets.top + BASE_TOP_PADDING;
+  const paddingBottom = insets.bottom + 24;
 
   if (scrollable) {
     return (
@@ -22,7 +26,7 @@ export function Screen({
         style={[styles.root, { backgroundColor: colors.background }]}
         contentContainerStyle={[
           styles.content,
-          { paddingBottom: insets.bottom + 24 },
+          { paddingTop, paddingBottom },
           contentContainerStyle,
         ]}
       >
@@ -33,7 +37,16 @@ export function Screen({
 
   return (
     <View
-      style={[styles.root, styles.content, { backgroundColor: colors.background }]}
+      style={[
+        styles.root,
+        styles.content,
+        {
+          backgroundColor: colors.background,
+          paddingTop,
+          paddingBottom,
+        },
+        contentContainerStyle,
+      ]}
     >
       {children}
     </View>
@@ -46,7 +59,7 @@ const styles = StyleSheet.create({
   },
   content: {
     paddingHorizontal: 20,
-    paddingTop: 16,
+    paddingTop: BASE_TOP_PADDING,
   },
 });
 

@@ -52,7 +52,8 @@ const config: ExpoConfig = {
     supabaseUrl: process.env.SUPABASE_URL,
     supabaseAnonKey: process.env.SUPABASE_ANON_KEY,
     eas: {
-      projectId: process.env.EAS_PROJECT_ID ?? ""
+      projectId:
+        process.env.EAS_PROJECT_ID ?? "dfb1cd57-e38f-4b13-a907-3357d3fc6fb5",
     }
   },
   platforms: ["ios", "android", "web"],
